@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Kapcsolat (Kék témával)</title>
+	<meta name="author" content="Kártik László" />
+	<meta charset="ISO-8859-2" />
+	<link rel="stylesheet" type="text/css" href="style_blue/style.css" title="style" />
+</head>
+
+<body>
+	<div id="main">
+		<div id="header">
+			<div id="logo">
+				<div id="logo_text">
+					<h1><a href="index.html">Kártik<span class="logo_colour">László</span></a></h1>
+					<h2>Egyszerű. Érthető. Színes.</h2>
+				</div>
+			</div>
+			
+			<!-- create menu -->
+			<div id="menubar">
+				<ul id="menu">
+					<!-- put class="selected" in the li tag for the selected page to highlight which page you're on -->
+					<li><a href="index.html">Főoldal</a></li>
+					<li><a href="examples.html">Minták</a></li>
+					<li><a href="page1.html">Első oldal</a></li>
+					<li><a href="page2.html">Második oldal</a></li>
+					<li class="selected"><a href="contact.html">Kapcsolat</a></li>
+				</ul>
+			</div>
+		</div>
+	<div id="content_header"></div>
+    
+	<div id="site_content">
+		<!-- sidebar items -->
+		<div class="sidebar">	
+			<h3>Legutóbbiak</h3>
+			<h4>A weboldalam készült:</h4>
+			<h5>2020 Szeptember 26. 21:22</h5>
+			<p>A Mechwart András Gépipari és Informatikai Technikum tanulójaként készítettem ezt a weboldalt.<br /><a href="#">Olvasd tovább...</a></p>
+			<p></p>
+			<h4>A weboldalam projktjében továbbiakban részt vett:</h4>
+			<h5>Tatár Krisztián</h5>
+			<p>Saját weboldalainak eléréséhez az alábbi linkeken érhetitek el!<br /><a href="#">Olvasd tovább...</a></p>
+			
+			<!-- create external links for "ks" my team -->
+			<h3>Külsős linkek</h3>
+			<ul>
+				<li><a href="#">link 1</a></li>
+				<li><a href="#">link 2</a></li>
+				<li><a href="#">link 3</a></li>
+				<li><a href="#">link 4</a></li>
+			</ul>
+			
+			<!-- create search bar -->
+			<h3>Keresés</h3>
+			<form method="post" action="#" id="search_form">
+				<p>
+					<input class="search" type="text" name="search_field" value="Írj be kulcsszavakat..." />
+					<input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style_orange/search.png" alt="Keresés" title="Search" />
+				</p>
+			</form>
+		</div>
+	
+		<!-- page content -->
+		<div id="content">
+			<h1>Kapcsolat</h1>
+			<p>Írj nekünk:</p>
+			<form action="#" method="post">
+				<div class="form_settings">
+					<p><span>Neved:</span><input class="contact" type="text" name="your-name" value="" /></p>
+					<p><span>E-mailed:</span><input class="contact" type="text" name="your_email" value="" /></p>
+					<p><span>Üzeneted:</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea></p>
+					<p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" /></p>
+				</div>
+			</form>
+			<p><br /><br />MEGJEGYZÉS: Egy ilyen kapcsolatfelvételi űrlaphoz valamilyen módon meg kell adni a bevitelt egy e-mail címre.</p>
+		</div>
+	</div>
+
+	<!-- create footer -->
+	<div id="content_footer"></div>
+		<div id="footer">
+			Copyright &copy; 2020, Mechwart András Gépipari és Informatikai Technikum | 
+			<a href="http://validator.w3.org/check?uri=referer">HTML5</a> | 
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | 
+			Webfejlesztő: <a href="https://facebook.com/laci.kartik" target="_blank">Kártik László</a>
+		</div>
+	</div>
+</body>
+</html>
